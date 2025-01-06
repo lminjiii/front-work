@@ -1,0 +1,9 @@
+/* h1 태그에 적용되는 스타일 */
+h1{
+  color: rgb(236, 141, 173); 
+  background-color: rgb(220, 247, 238);
+}
+
+h3{
+  color: plum;
+}
