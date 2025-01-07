@@ -1,0 +1,21 @@
+.profileImage {
+  width: 100px;
+  margin-top: 30px;
+  /* image inline 요소 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'gulim';
+  color: palevioletred;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+p {
+  text-align: center;
+}
