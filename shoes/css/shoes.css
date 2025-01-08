@@ -70,6 +70,55 @@
   font-size: 30px;
 }
 
-.explain-box::first-line  {
+.explain-box::first-line {
   color: blue;
 }
+
+div, input, textarea {
+  box-sizing: border-box;
+}
+
+.form-background {
+  background: black;
+  padding: 30px;
+}
+
+.form-white {
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.w-50 {
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+
+/* 모든 버틍의 공통 속성 */
+.btn {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+}
+
+/* 해당 버튼만 갖는 속성 */
+.yellow-button {
+  background-color: yellow;
+}
+  
