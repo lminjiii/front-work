@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/oder.css">
+  <script src="./js/oder.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form action="">
+      <fieldset>
+        <legend>상품 선택</legend>
+        <ul>
+          <h3>주문할 상품을 선택해 주세요</h3>
+          <li>
+            <input type="checkbox">
+            <label for="p_3">선물용 3kg</label>
+            <input type="number" style="width : 30px;" min="0" max="5">
+            <label for="p_3">개</label>
+            <label for="p_3" style="font-size: 15px;">(최대 5개)</label>
+          </li>
+          <li>
+            <input type="checkbox">
+            <label for="p_5">선물용 5kg</label>
+            <input type="number" style="width : 30px" min="0" max="3">
+            <label for="p_5">개</label>
+            <label for="p_5" style="font-size: 15px;">(최대 3개)</label>
+          </li>
+          <li>
+            <input type="checkbox">
+            <label for="f_3">가정용 3kg</label>
+            <input type="number" style="width : 30px" min="0" max="5">
+            <label for="f_3">개</label>
+            <label for="f_3" style="font-size: 15px;">(최대 5개)</label>
+          </li>
+          <li>
+            <input type="checkbox">
+            <label for="f_5">가정용 5kg</label>
+            <input type="number" style="width : 30px" min="0" max="3">
+            <label for="f_5">개</label>
+            <label for="f_5" style="font-size: 15px;">(최대 3개)</label>
+          </li>
+          <h3>포장 선택</h3>
+          <li>
+            <input type="radio" id="p_yes" name="present"
+            value="yes" checked>
+            <label for="p_yes">선물 포장</label>
+          </li>
+          <li>
+            <input type="radio" id="p_no" name="present"
+            value="no">
+            <label for="p_no">선물 포장 안 함</label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="imformation">
+        <legend>배송 정보</legend>
+        <ul>
+          <li>
+        <label for="u_name">이름</label>
+        <input type="text" id="name" name="name">
+          </li>
+          <li>
+            <label for="u_adress">배송 주소</label>
+            <input type="text" id="adress" name="adress">
+          </li>
+          <li>
+            <label for="u_email">이메일</label>
+            <input type="email" name="email" id="email">
+          </li>
+          <li>
+            <label for="u_phone">연락처</label>
+            <input type="tel" id="phone" name="phone">
+          </li>
+          <li>
+            <label for="u_date">배송 지정</label>
+            <input type= "datetime-local" id="date" name="date">
+            <label class="day" for="n_date">(주문일로부터 최소 3일 이후)</label>
+          </li>
+          <li>
+            <label for="memo">메모</label>
+            <textarea id="memo" name="memo" rows="3" cols="40">
+            </textarea>
+          </li>
+        </ul>
+      </fieldset>
+
+      <div class="buttons">
+        <input type="submit" value="주문하기">
+        <input type="reset" value="취소하기">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
