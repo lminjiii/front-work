@@ -1,3 +1,18 @@
+div {
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  height: 50px;
+  padding: 10px;
+  align-items: center;
+}
+
+.nave-item {
+  margin-right: 10px;
+}
+
 .main-background {
   padding: 1px;
   background-image: url('../img/shoes_background.jpg');
@@ -121,4 +136,35 @@ div, input, textarea {
 .yellow-button {
   background-color: yellow;
 }
+
+.product-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.product-container div{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
   
+@media screen and (max-width: 1200px) {
+  /* 화면 크기가 1200px 이하일 때 
+  테블릿 사이즈 적용할 css를 기술*/
+ .main-title {
+  font-size: 20px;
+ }
+}
+
+@media screen and (max-width: 768px) {
+   /* 화면 크기가 768px 이하일 때 
+  테블릿 사이즈 적용할 css를 기술*/
+  .main-title {
+   font-size: 20px;
+  }
+ }
+

@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 1px solid gray;
+  padding-left: 20px;
+}
+
+footer {
+  border-top: 1px solid gray;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+.content nav {
+  border-right: solid 1px gray;
+}
+
+.content aside {
+  border-left: solid 1px gray;
+}
+
+nav, aside {
+  flex-basis: 150px;
+  flex-shrink: 0;
+}
+
+main {
+  padding: 10px;
+  column-count: 2;
+}
+
+h1 {
+  column-span: all;
+}
